@@ -1,0 +1,18 @@
+# focus
+fn - j : yabai -m window --focus south
+fn - k : yabai -m window --focus north
+fn - h : yabai -m window --focus west
+fn - l : yabai -m window --focus east
+
+# move window to next/prev space + follow
+fn - s : $HOME/.config/yabai/move_focus.sh next
+fn - a : $HOME/.config/yabai/move_focus.sh prev
+
+# just focus space
+fn - z : yabai -m space --focus prev
+fn - x : yabai -m space --focus next
+
+# new window here
+fn - g : $HOME/.config/yabai/new_here.sh ghostty
+fn - c : $HOME/.config/yabai/new_here.sh chrome
+fn - b : $HOME/.config/yabai/new_here.sh zen

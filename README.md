@@ -68,10 +68,10 @@ Quick stress tool for focus reliability and process leak checks:
 
 ## Keybindings (`.skhdrc`)
 
-- Focus window: `fn + h/j/k/l`
-- Swap window: `shift + fn + left/right/up/down`
-- Move current window to prev/next space: `fn + a/s`
-- Focus prev/next space: `fn + z/x`
+- Focus window: `fn + h | j | k | l`
+- Swap window: `fn + ; | ' | [ | /`
+- Move current window to prev/next space: `fn + a | s`
+- Focus prev/next space: `fn + z | x`
 - Create window here:
   - `fn + g` -> Ghostty
   - `fn + c` -> Chrome

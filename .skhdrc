@@ -4,11 +4,11 @@ fn - k : yabai -m window --focus north
 fn - h : yabai -m window --focus west
 fn - l : yabai -m window --focus east
 
-# swap
-shift + fn - left  : yabai -m window --swap west
-shift + fn - right : yabai -m window --swap east
-shift + fn - up    : yabai -m window --swap north
-shift + fn - down  : yabai -m window --swap south
+# swap (; = left, ' = right, [ = up, / = down)
+fn - 0x29 : yabai -m window --swap west
+fn - 0x27 : yabai -m window --swap east
+fn - 0x21 : yabai -m window --swap north
+fn - 0x2c : yabai -m window --swap south
 
 # move window to next/prev space + follow
 fn - s : $HOME/.config/yabai/move_focus.sh next
